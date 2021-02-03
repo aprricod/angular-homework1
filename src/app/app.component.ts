@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'homework1';
+  log(value: string) {
+    console.log('parent', value);
+  }
 }
